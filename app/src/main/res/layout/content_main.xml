@@ -26,7 +26,8 @@
         android:layout_marginLeft="33dp"
         android:layout_marginTop="87dp"
         android:layout_below="@+id/textView"
-        android:layout_alignParentLeft="true" />
+        android:layout_alignParentLeft="true"
+        android:onClick="setFirstMessage" />
 
     <Button
         android:layout_width="wrap_content"
@@ -35,7 +36,8 @@
         android:id="@+id/button2"
         android:layout_below="@+id/button"
         android:layout_alignLeft="@+id/button"
-        android:layout_marginTop="49dp" />
+        android:layout_marginTop="49dp"
+        android:onClick="setSecondMessage" />
 
     <EditText
         android:layout_width="wrap_content"

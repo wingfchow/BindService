@@ -20,4 +20,8 @@
         </activity>
     </application>
 
+    <service
+        android:name=".DemoBindService"
+        android:enabled="true"
+        android:exported="true"></service>
 </manifest>
